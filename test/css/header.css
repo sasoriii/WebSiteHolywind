@@ -1,0 +1,23 @@
+.homeLogo{
+	height: 8vmin;
+	width: 15vmin;
+}
+.homeLogoImg{
+	height: 6vmin;
+	width: 12vmin;
+}
+.dropdown-toggle::before {
+	border-color: rgba(0,0,0,0); !important;
+}
+@media only screen and (max-width: 548px) {
+  #searchDiv {
+    display: none;
+  }
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+}

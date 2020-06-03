@@ -1,0 +1,116 @@
+.site-footer
+{
+  padding:2.2vw 0 0.52vw;
+  /*font-size:0.8vw;
+  line-height:1.25vw;*/
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5;
+}
+.site-footer hr.small
+{
+  margin:1.0vw;
+}
+.site-footer h6
+{
+  color:#DA33FF;
+  /*font-size:0.8vw;*/
+  text-transform:uppercase;
+  margin-top:0.2vw;
+  letter-spacing:0.10vw;
+}
+
+/*Couleur liens rapide et informations et couleur de survol*/
+
+.footer-links a
+{
+  color:#DA33FF;
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#DA33FF;
+  text-decoration:none;
+}
+
+/* Pour centrer les icones et gere la taille des icones */
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+.site-footer .social-icons a
+{
+  width:2vw;
+  height:2vw;
+  /*line-height:2vw;*/
+  margin-left:auto;
+  margin-right:4vw;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+/* Mettre les icones en ligne et la distance avec le bas du footer */
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:0.41vw;
+}
+
+/* Couleur des fonds et des icones avec les transistions */
+
+.social-icons a{
+  background-color:#eceeef;
+  color:#fff;
+  /*font-size:0.8vw;*/
+  display:inline-block;
+  /*line-height:2.30vw;*/
+  width:2.30vw;
+  height:2.30vw;
+  text-align:center;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+/* Couleurs au passage de la souris sur l'icone */
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  /*line-height:1.7vmax;*/
+  height:1.7vmax;
+  width:1.7vmax;
+}
+.social-icons a.facebook:hover
+{
+  background-color:#77b5fe
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+
+.social-icons a.linkedin:hover
+{
+  background-color:#0b77bd
+}
+
+.social-icons a.youtube:hover{
+	background-color: #e01f0d;
+}
